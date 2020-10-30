@@ -23,6 +23,6 @@ Using other sources than the good-ol' internet and our own experience is not all
 * Make sure your finished product is viewable by anyone (at least within this course)
 * When finished, set up two seperate links within this README.md to the respective interaces.
 
-[Interface #1](https://vicible2.github.io/css-integration/ "Interface #1")
+[Interface #1](https://vicible2.github.io/css-integration/index_1.html "Interface #1")
 
 [Interface #2](https://vicible2.github.io/css-integration/ "Interface #2")
