@@ -4,7 +4,7 @@
 
 body {
   color: #e6e6e6;
-  background-color: #468DF1;
+  background-color: #eeeeee;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,13 +20,13 @@ body {
 }
 
 body div {
-  border: 1px solid black;
   margin: 0 1rem;
 }
 
 body .container {
+  background-color: #468DF1;
   padding: 1rem 0;
-  border: 4px solid #c7c7c7;
+  border: 4px solid #468DF1;
   border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,13 +69,19 @@ body .container .views {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 20px;
+  /* HR's were deleted, keep properties incase solution is better than using borders
+           
+           .line1 {
+                display: hidden;
+                border-bottom:  1px solid rgba(255, 255, 255, 0.315);
+                align-self: center;
+                width: 100%;
+
+            }*/
 }
 
-body .container .views .line1 {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  width: 100%;
+body .container .views p {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.315);
 }
 
 body .container .views img {
@@ -86,6 +92,7 @@ body .container .views img {
 }
 
 body .container .report {
+  border-top: 1px solid rgba(255, 255, 255, 0.315);
   padding: 0;
   text-align: right;
 }
