@@ -47,6 +47,11 @@ body .container .users {
   margin-bottom: 20px;
 }
 
+body .container .vpm {
+  opacity: 0.7;
+  font-size: 11pt;
+}
+
 body .container .views {
   display: -webkit-box;
   display: -ms-flexbox;
