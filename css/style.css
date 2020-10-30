@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body h3 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15pt;
+  color: #92C9A4;
+}
+
+body span {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
