@@ -87,9 +87,14 @@ body .data {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+}
+
+body .data tr.tr td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.315);
 }
 
 body .data .count {
