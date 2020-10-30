@@ -86,14 +86,17 @@ body .container .views img {
 }
 
 body .container .report {
-  padding: 10px 0 0 0;
+  padding: 0;
   text-align: right;
+}
+
+body .container .report span {
+  font-weight: bolder;
 }
 
 body .container .report a {
   text-decoration: none;
   color: #e6e6e6;
-  font-weight: bolder;
 }
 
 body .data {
@@ -103,7 +106,7 @@ body .data {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 5px;
+  margin-bottom: 16px;
 }
 
 body .data tr.tr td {
