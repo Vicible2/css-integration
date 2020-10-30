@@ -1,4 +1,10 @@
 body {
   background-color: #468DF1;
+  height: 100vh;
+}
+
+body .container {
+  display: -ms-grid;
+  display: grid;
 }
 /*# sourceMappingURL=style2.css.map */

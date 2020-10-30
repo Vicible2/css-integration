@@ -1,3 +1,11 @@
 body {
     background-color: #468DF1;
+    height: 100vh;
+
+    .container {
+        display: grid;
+    }
+
 }
+
+@media only screen and (min-width: 600px) {}
