@@ -37,6 +37,15 @@ body .container .views {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 5px;
+}
+
+body .container .views .line1 {
+  border-top: 1px solid lightgray;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 95%;
 }
 
 body .container .views img {

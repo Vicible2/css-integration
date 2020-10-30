@@ -27,6 +27,13 @@ body {
         .views {
             display: flex;
             flex-direction: column;
+            padding: 5px;
+
+            .line1 {
+                border-top: 1px solid lightgray;
+                align-self: center;
+                width: 95%;
+            }
 
             img {
                 align-self: center;
