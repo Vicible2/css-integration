@@ -26,24 +26,29 @@ body {
         height: fit-content;
         max-width: 640px;
 
+        .users {
+            margin-bottom: 20px;
+        }
 
         .views {
             display: flex;
             flex-direction: column;
-            padding: 5px;
+
 
             .line1 {
-                border-top: 1px solid lightgray;
                 align-self: center;
-                width: 95%;
+                width: 100%;
             }
 
             img {
+                align-self: center;
                 width: 100%;
             }
         }
+
         .report {
             text-align: right;
+
             a {
                 text-decoration: none;
                 color: #e6e6e6;
@@ -52,9 +57,11 @@ body {
         }
 
     }
+
     .data {
         display: flex;
         justify-content: space-between;
+
         .count {
             text-align: right;
         }

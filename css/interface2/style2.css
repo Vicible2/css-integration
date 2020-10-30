@@ -43,6 +43,10 @@ body .container {
   max-width: 640px;
 }
 
+body .container .users {
+  margin-bottom: 20px;
+}
+
 body .container .views {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,18 +55,19 @@ body .container .views {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5px;
 }
 
 body .container .views .line1 {
-  border-top: 1px solid lightgray;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  width: 95%;
+  width: 100%;
 }
 
 body .container .views img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   width: 100%;
 }
 
