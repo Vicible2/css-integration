@@ -1,28 +1,31 @@
-
-*
-{
+* {
     margin: 2px;
 }
+
 body {
+    color: #e6e6e6;
     background-color: #468DF1;
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     div {
         border: 1px solid black;
+        margin: 0 1rem;
     }
 
     .container {
-        width: 100%;
+        padding: 1rem 0;
+        border: 4px solid #c7c7c7;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 330px;
+        height: fit-content;
         max-width: 640px;
-        display: grid;
-        grid-template-areas: "users"
-            "views"
-            "data"
-            "report";
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr, 1.5fr, 3fr, 0.5fr;
+
 
         .views {
             display: flex;
@@ -36,12 +39,29 @@ body {
             }
 
             img {
-                align-self: center;
-                width: 95%;
+                width: 100%;
             }
+        }
+        .report {
+            text-align: right;
+            a {
+                text-decoration: none;
+                color: #e6e6e6;
+                font-weight: bolder;
+            }
+        }
+
+    }
+    .data {
+        display: flex;
+        justify-content: space-between;
+        .count {
+            text-align: right;
         }
     }
 
 }
+
+
 
 @media all and (min-width: 640px) {}
