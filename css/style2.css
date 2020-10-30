@@ -1,10 +1,25 @@
 body {
   background-color: #468DF1;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div {
+  border: 1px solid black;
 }
 
 body .container {
   display: -ms-grid;
   display: grid;
+      grid-template-areas: "users" "views" "data" "report";
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr, 1.5fr, 3fr, 0.5fr;
+      grid-template-rows: 1fr, 1.5fr, 3fr, 0.5fr;
 }
 /*# sourceMappingURL=style2.css.map */

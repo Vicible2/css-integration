@@ -1,11 +1,21 @@
 body {
     background-color: #468DF1;
     height: 100vh;
-
+    display: flex;
+    justify-content: center;
+    div {
+        border: 1px solid black;
+    }
     .container {
         display: grid;
+        grid-template-areas: "users"
+                             "views"
+                             "data"
+                             "report";
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr, 1.5fr, 3fr, 0.5fr;
     }
 
 }
 
-@media screen and (min-width: 640px) {}
+@media all and (min-width: 640px) {}
