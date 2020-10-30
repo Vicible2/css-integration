@@ -1,3 +1,7 @@
+* {
+  margin: 2px;
+}
+
 body {
   background-color: #468DF1;
   height: 100vh;
@@ -14,6 +18,8 @@ body div {
 }
 
 body .container {
+  width: 100%;
+  max-width: 640px;
   display: -ms-grid;
   display: grid;
       grid-template-areas: "users" "views" "data" "report";
@@ -21,5 +27,22 @@ body .container {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr, 1.5fr, 3fr, 0.5fr;
       grid-template-rows: 1fr, 1.5fr, 3fr, 0.5fr;
+}
+
+body .container .views {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .views img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 95%;
 }
 /*# sourceMappingURL=style2.css.map */

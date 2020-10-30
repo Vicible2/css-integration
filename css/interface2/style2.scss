@@ -1,19 +1,38 @@
+
+*
+{
+    margin: 2px;
+}
 body {
     background-color: #468DF1;
     height: 100vh;
     display: flex;
     justify-content: center;
+
     div {
         border: 1px solid black;
     }
+
     .container {
+        width: 100%;
+        max-width: 640px;
         display: grid;
         grid-template-areas: "users"
-                             "views"
-                             "data"
-                             "report";
+            "views"
+            "data"
+            "report";
         grid-template-columns: 1fr;
-        grid-template-rows:1fr, 1.5fr, 3fr, 0.5fr;
+        grid-template-rows: 1fr, 1.5fr, 3fr, 0.5fr;
+
+        .views {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                align-self: center;
+                width: 95%;
+            }
+        }
     }
 
 }
