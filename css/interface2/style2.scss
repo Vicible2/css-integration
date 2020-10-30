@@ -9,6 +9,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
 
     div {
         border: 1px solid black;
@@ -28,6 +31,11 @@ body {
 
         .users {
             margin-bottom: 20px;
+            h1 {
+                margin: 5px;
+                font-size: 40pt;
+                font-weight: 300;
+            }
         }
         .vpm {
             opacity: 0.7;
