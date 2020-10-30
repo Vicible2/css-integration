@@ -27,7 +27,7 @@ body .container {
   background-color: #468DF1;
   padding: 1rem 0;
   border: 4px solid #468DF1;
-  border-radius: 5px;
+  border-radius: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,6 +43,8 @@ body .container {
   height: -moz-fit-content;
   height: fit-content;
   max-width: 640px;
+  -webkit-box-shadow: 10px 10px 20px darkgray;
+          box-shadow: 10px 10px 20px darkgray;
 }
 
 body .container .users {
@@ -82,6 +84,7 @@ body .container .views {
 
 body .container .views p {
   border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+  font-size: 9pt;
 }
 
 body .container .views img {
@@ -126,5 +129,10 @@ body .data tbody {
 
 body .data .count {
   text-align: right;
+}
+
+body .container:hover {
+  -webkit-box-shadow: 8px 8px 30px darkgray;
+          box-shadow: 8px 8px 30px darkgray;
 }
 /*# sourceMappingURL=style2.css.map */
