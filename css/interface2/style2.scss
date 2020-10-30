@@ -33,6 +33,7 @@ body {
         .views {
             display: flex;
             flex-direction: column;
+            margin-bottom: 20px;
 
 
             .line1 {
@@ -47,6 +48,7 @@ body {
         }
 
         .report {
+            padding: 10px 0 0 0;
             text-align: right;
 
             a {
