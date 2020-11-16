@@ -23,6 +23,7 @@ html body {
 }
 
 html body .container {
+  border: 1px solid lightgray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,6 +90,10 @@ html body .container .content .profile .info p {
   font-size: 13px;
   margin: 0;
   font-weight: normal;
+}
+
+html body .container .content .profile .info .name {
+  font-weight: bold;
 }
 
 html body .container .content .profile .info .date {

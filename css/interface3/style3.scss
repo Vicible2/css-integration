@@ -21,7 +21,7 @@ html {
         }*/
 
         .container {
-
+            border: 1px solid lightgray;
             display: flex;
             flex-direction: row;
             margin: 2px;
@@ -75,7 +75,9 @@ html {
                             margin: 0;
                             font-weight: normal;
                         }
-
+                        .name {
+                            font-weight: bold;
+                        }
                         .date {
                             margin-top: 0px;
                             font-weight: lighter;
