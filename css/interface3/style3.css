@@ -33,7 +33,6 @@ html body .container {
   margin: 2px;
   width: 490px;
   height: 260px;
-  background-color: red;
 }
 
 html body .container .img {
@@ -44,7 +43,6 @@ html body .container .img {
 html body .container .content {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,19 +54,11 @@ html body .container .content {
   width: calc(490px - 200px);
 }
 
-html body .container .content .title {
-  background-color: green;
-}
-
 html body .container .content .title h1 {
   margin: 0;
   padding-top: 2px;
   line-height: 1.35;
   font-size: 18px;
-}
-
-html body .container .content .subtitle {
-  background-color: blue;
 }
 
 html body .container .content .subtitle p {
@@ -88,10 +78,10 @@ html body .container .content .profile {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: red;
 }
 
 html body .container .content .profile .info {
+  background-color: red;
   margin-left: 5px;
 }
 
@@ -124,8 +114,7 @@ html body .container .content .profile .bookmark {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 13px;
-  margin-left: 43px;
-  background-color: green;
+  margin-left: 32px;
   width: 50px;
   height: 25px;
 }
