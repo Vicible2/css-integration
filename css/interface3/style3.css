@@ -1,0 +1,17 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html body #mockup {
+  background-image: url(../../assets/card3.png);
+  width: 496px;
+  height: 265px;
+}
+/*# sourceMappingURL=style3.css.map */
