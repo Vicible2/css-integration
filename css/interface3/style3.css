@@ -8,18 +8,18 @@ html body {
   height: 100%;
   width: 100%;
   margin: 0;
-}
+  /* #mockup {
+            background-image: url(../../assets/card3.png);
+            width: 496px;
+            height: 265px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+            z-index: 10;
+            pointer-events: none;
 
-html body #mockup {
-  background-image: url(../../assets/card3.png);
-  width: 496px;
-  height: 265px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  z-index: 10;
-  pointer-events: none;
+        }*/
 }
 
 html body .container {
