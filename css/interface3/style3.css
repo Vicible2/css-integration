@@ -78,4 +78,40 @@ html body .container .content .subtitle p {
   font-weight: 200;
   font-size: 15px;
 }
+
+html body .container .content .profile {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: red;
+}
+
+html body .container .content .profile .info p {
+  padding-top: 3px;
+  font-size: 13px;
+  margin: 0;
+  font-weight: normal;
+}
+
+html body .container .content .profile .info .date {
+  margin-top: 0px;
+  font-weight: lighter;
+}
+
+html body .container .content .profile .img2 {
+  background-color: green;
+  width: 50px;
+  height: 25px;
+}
+
+html body .container .content .profile .flag {
+  background-color: green;
+  width: 50px;
+  height: 25px;
+}
 /*# sourceMappingURL=style3.css.map */

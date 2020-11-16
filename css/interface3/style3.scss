@@ -19,26 +19,29 @@ html {
             pointer-events: none;
 
         }
+
         .container {
-            
+
             display: flex;
             flex-direction: row;
             margin: 2px;
             width: 490px;
             height: 260px;
             background-color: red;
-            
+
             .img {
                 background-image: url(../../assets/bureau.png);
-                width:200px;
+                width: 200px;
             }
+
             .content {
                 box-sizing: border-box;
                 background-color: yellow;
                 display: flex;
                 flex-direction: column;
-               padding: 20px;
+                padding: 20px;
                 width: calc(490px - 200px);
+
                 .title {
                     h1 {
                         margin: 0;
@@ -46,16 +49,49 @@ html {
                         line-height: 1.35;
                         font-size: 18px;
                     }
+
                     background-color: green;
                 }
+
                 .subtitle {
                     background-color: blue;
+
                     p {
                         margin: 0;
                         padding-top: 6px;
                         line-height: 1.3;
                         font-weight: 200;
                         font-size: 15px;
+                    }
+                }
+                .profile {
+                    margin-top: 60px;
+                    display:flex;
+                    flex-direction: row;
+                    background-color: red;
+                    .info {
+                        p {padding-top: 3px;
+                            font-size: 13px;
+                            margin: 0;
+                            font-weight: normal;
+                        }
+                        .date {
+                            margin-top: 0px;
+                            font-weight: lighter;
+                        }
+                        
+                    }
+                    
+                    .img2 {
+                        
+                        background-color: green;
+                        width: 50px;
+                        height: 25px;
+                    }
+                    .flag {
+                        background-color: green;
+                        width: 50px;
+                        height: 25px;
                     }
                 }
 
