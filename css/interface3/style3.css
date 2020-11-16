@@ -91,6 +91,10 @@ html body .container .content .profile {
   background-color: red;
 }
 
+html body .container .content .profile .info {
+  margin-left: 5px;
+}
+
 html body .container .content .profile .info p {
   padding-top: 3px;
   font-size: 13px;
@@ -104,14 +108,35 @@ html body .container .content .profile .info .date {
 }
 
 html body .container .content .profile .img2 {
+  background-size: contain;
+  border-radius: 50%;
+  background-image: url(../../assets/profilepic.png);
+  width: 45px;
+  height: 45px;
+}
+
+html body .container .content .profile .bookmark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 4px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 13px;
+  margin-left: 43px;
   background-color: green;
   width: 50px;
   height: 25px;
 }
 
-html body .container .content .profile .flag {
-  background-color: green;
-  width: 50px;
-  height: 25px;
+html body .container .content .profile .bookmark #flag {
+  width: 18px;
+  height: 18px;
+}
+
+html body .container .content .profile .bookmark img {
+  width: 15px;
+  height: 15px;
 }
 /*# sourceMappingURL=style3.css.map */

@@ -70,6 +70,7 @@ html {
                     flex-direction: row;
                     background-color: red;
                     .info {
+                        margin-left: 5px;
                         p {padding-top: 3px;
                             font-size: 13px;
                             margin: 0;
@@ -83,15 +84,29 @@ html {
                     }
                     
                     .img2 {
-                        
-                        background-color: green;
-                        width: 50px;
-                        height: 25px;
+                        background-size: contain;
+                        border-radius: 50%;
+                        background-image: url(../../assets/profilepic.png);
+                        width: 45px;
+                        height: 45px;
                     }
-                    .flag {
+                    .bookmark {
+                        display: flex;
+                        padding-right: 4px;
+                        justify-content: flex-end;
+                        margin-top: 13px;
+                        margin-left: 43px;
                         background-color: green;
                         width: 50px;
                         height: 25px;
+                        #flag {
+                            width: 18px;
+                            height: 18px;
+                        }
+                        img {
+                            width: 15px;
+                            height: 15px;
+                        }
                     }
                 }
 
