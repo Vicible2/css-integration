@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
 
     body {
+        font-family: sans-serif;
         height: 100%;
         width: 100%;
         margin: 0;
@@ -13,18 +14,52 @@ html {
             position: absolute;
             top: 0;
             left: 0;
-
             opacity: 0.5;
             z-index: 10;
             pointer-events: none;
 
         }
         .container {
+            
+            display: flex;
+            flex-direction: row;
             margin: 2px;
             width: 490px;
             height: 260px;
             background-color: red;
-            opacity: 0.5;
+            
+            .img {
+                background-image: url(../../assets/bureau.png);
+                width:200px;
+            }
+            .content {
+                box-sizing: border-box;
+                background-color: yellow;
+                display: flex;
+                flex-direction: column;
+               padding: 20px;
+                width: calc(490px - 200px);
+                .title {
+                    h1 {
+                        margin: 0;
+                        padding-top: 2px;
+                        line-height: 1.35;
+                        font-size: 18px;
+                    }
+                    background-color: green;
+                }
+                .subtitle {
+                    background-color: blue;
+                    p {
+                        margin: 0;
+                        padding-top: 6px;
+                        line-height: 1.3;
+                        font-weight: 200;
+                        font-size: 15px;
+                    }
+                }
+
+            }
         }
     }
 }

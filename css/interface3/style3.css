@@ -4,6 +4,7 @@ html {
 }
 
 html body {
+  font-family: sans-serif;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -22,10 +23,59 @@ html body #mockup {
 }
 
 html body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 2px;
   width: 490px;
   height: 260px;
   background-color: red;
-  opacity: 0.5;
+}
+
+html body .container .img {
+  background-image: url(../../assets/bureau.png);
+  width: 200px;
+}
+
+html body .container .content {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  width: calc(490px - 200px);
+}
+
+html body .container .content .title {
+  background-color: green;
+}
+
+html body .container .content .title h1 {
+  margin: 0;
+  padding-top: 2px;
+  line-height: 1.35;
+  font-size: 18px;
+}
+
+html body .container .content .subtitle {
+  background-color: blue;
+}
+
+html body .container .content .subtitle p {
+  margin: 0;
+  padding-top: 6px;
+  line-height: 1.3;
+  font-weight: 200;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style3.css.map */
