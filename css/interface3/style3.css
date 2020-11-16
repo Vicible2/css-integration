@@ -13,5 +13,19 @@ html body #mockup {
   background-image: url(../../assets/card3.png);
   width: 496px;
   height: 265px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+html body .container {
+  margin: 2px;
+  width: 490px;
+  height: 260px;
+  background-color: red;
+  opacity: 0.5;
 }
 /*# sourceMappingURL=style3.css.map */
