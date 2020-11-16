@@ -60,25 +60,29 @@ html {
                         font-size: 15px;
                     }
                 }
+
                 .profile {
                     margin-top: 60px;
-                    display:flex;
+                    display: flex;
                     flex-direction: row;
+
                     .info {
-                        background-color: red;
                         margin-left: 5px;
-                        p {padding-top: 3px;
+
+                        p {
+                            padding-top: 3px;
                             font-size: 13px;
                             margin: 0;
                             font-weight: normal;
                         }
+
                         .date {
                             margin-top: 0px;
                             font-weight: lighter;
                         }
-                        
+
                     }
-                    
+
                     .img2 {
                         background-size: contain;
                         border-radius: 50%;
@@ -86,6 +90,7 @@ html {
                         width: 45px;
                         height: 45px;
                     }
+
                     .bookmark {
                         display: flex;
                         padding-right: 4px;
@@ -94,10 +99,12 @@ html {
                         margin-left: 32px;
                         width: 50px;
                         height: 25px;
+
                         #flag {
                             width: 18px;
                             height: 18px;
                         }
+
                         img {
                             width: 15px;
                             height: 15px;
